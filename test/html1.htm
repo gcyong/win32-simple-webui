@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Test</title>
+        <script>
+            var result = window.external.Add("hello");
+            function event1(str) {
+                alert(str);
+            }
+        </script>
+        <style>
+            body {
+                background-color: pink;
+            }
+        </style>
+    </head>
+    <body>
+        <p id="result_phase"></p>
+        <button id="result_btn" onclick="document.getElementById('result_phase').innerText = result;">result</button>
+    </body>
+</html>

@@ -9,22 +9,70 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="src\base">
+    <Filter Include="src\com">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
-    <Filter Include="src\base\util">
-      <UniqueIdentifier>{01aad2fd-be44-4981-af1a-fb650261505a}</UniqueIdentifier>
+    <Filter Include="src\com\base">
+      <UniqueIdentifier>{5b9a13d8-b8f5-4cdd-8d47-3ff4c291367f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\DllMain.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="src\WebUI1.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\base\util\ComPtr.h">
-      <Filter>src\base\util</Filter>
+    <ClInclude Include="src\com\base\ComInterfaceBase.h">
+      <Filter>src\com\base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\com\base\ComPtr.h">
+      <Filter>src\com\base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\com\base\DispatchBase.h">
+      <Filter>src\com\base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\com\base\DocHostUIHandlerBase.h">
+      <Filter>src\com\base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\com\base\OleClientSiteBase.h">
+      <Filter>src\com\base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\com\base\OleInPlaceSiteBase.h">
+      <Filter>src\com\base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\com\base\StorageBase.h">
+      <Filter>src\com\base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\com\SimpleStorage.h">
+      <Filter>src\com</Filter>
+    </ClInclude>
+    <ClInclude Include="src\com\SimpleOleInPlaceSite.h">
+      <Filter>src\com</Filter>
+    </ClInclude>
+    <ClInclude Include="src\com\SimpleOleClientSite.h">
+      <Filter>src\com</Filter>
+    </ClInclude>
+    <ClInclude Include="src\com\base\ComStr.h">
+      <Filter>src\com\base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\com\SimpleDispatch.h">
+      <Filter>src\com</Filter>
+    </ClInclude>
+    <ClInclude Include="src\com\SimpleDocHostUIHandler.h">
+      <Filter>src\com</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WebUI1.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\com\SimpleDWebBrowserEvents2.h">
+      <Filter>src\com</Filter>
+    </ClInclude>
+    <ClInclude Include="src\com\base\DWebBrowserEvents2Base.h">
+      <Filter>src\com\base</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
